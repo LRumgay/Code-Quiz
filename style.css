@@ -21,15 +21,15 @@ h1 {
     font-size: 1.5rem;
     border-radius: 8px;
     width: 100px;
-    background-color: darkseagreen;
+    background-color: rgb(138, 207, 219);
     cursor: pointer;
 }
 
 
 
 .question-card {
-    background-color: cadetblue;
-    color: coral;
+    background-color: rgb(215, 170, 245);
+    color: rgb(233, 233, 233);
     border: 2px solid black;
     border-radius: 8px;
     margin: 10px;
@@ -43,7 +43,7 @@ h1 {
 }
 
 body {
-    background-color: rgb(161, 156, 156);
+    background-color: rgb(255, 255, 255);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -57,8 +57,22 @@ body {
     display: flex;
     justify-content: space-between;
     border-radius: 6px;
-    background-color: burlywood;
+    background-color: rgb(215, 170, 245);
     color: white;
+}
+
+.qa {
+    background-color: rgb(215, 170, 245);
+    color: rgb(224, 224, 223);
+    border: 2px solid black;
+    border-radius: 8px;
+    margin: 10px;
+    height: 400px;
+    width: 1000px;
+    flex-direction: column;
+    display: none;
+    justify-content: center;
+    align-items: center;
 }
 
 
