@@ -25,9 +25,13 @@ h1 {
     cursor: pointer;
 }
 
+.hide {
+    display: none;
+}
 
 
-.question-card {
+
+#question-card {
     background-color: rgb(215, 170, 245);
     color: rgb(233, 233, 233);
     border: 2px solid black;
@@ -36,7 +40,7 @@ h1 {
     height: 400px;
     width: 1000px;
     flex-direction: column;
-    display: flex;
+    /* display: flex; */
     justify-content: center;
     align-items: center;
     
@@ -50,18 +54,18 @@ body {
     margin-top: 100px;
 }
 
-.timer {
+#timer {
     height: 40px;
     width: 140px;
     border: 2px solid black;
-    display: flex;
+    /* display: flex; */
     justify-content: space-between;
     border-radius: 6px;
     background-color: rgb(215, 170, 245);
     color: white;
 }
 
-.qa {
+#qa {
     background-color: rgb(215, 170, 245);
     color: rgb(224, 224, 223);
     border: 2px solid black;
@@ -70,7 +74,6 @@ body {
     height: 400px;
     width: 1000px;
     flex-direction: column;
-    display: none;
     justify-content: center;
     align-items: center;
 }
